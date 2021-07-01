@@ -1,0 +1,178 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页 | 设计师务志然个人网站 </title>
+<meta name="keywords" content="品牌设计师,设计,设计师务志然,务志然">
+<meta name="description" content="务志然,品牌设计师">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/main_M.css" media="screen and (min-width: 200px) and (max-width:800px)">
+<link rel="stylesheet" type="text/css" href="css/main_4k.css" media="screen and (min-width: 2000px) and (max-width:10000px)">
+<link href="css/main.css" rel="stylesheet">
+
+<script src="js/cool.js" type="text/javascript"></script>
+
+<script>
+// borwserRedirect
+    (function browserRedirect(){
+            var sUserAgent = navigator.userAgent.toLowerCase();  
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+
+      if(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM){
+        window.location.href = 'index-m.html';
+      }
+    })();
+	
+
+	
+</script>
+
+</head>
+
+<body>
+<div class="x-warp">
+
+	<div class="top">
+		<div class="top_warp">
+			<a href="" class="logo">
+				<img src="picture/logo.png" alt="">
+			</a>
+			
+			<div class="top_nav">
+				<ul>
+					<li class="nav_no"><a href="about.html">关于我</a></li>
+					<li><a href="painting.html">绘画作品</a></li>
+					<li><a href="design.html">设计作品</a></li>
+					<li><a href="" class="in">首 页</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="banner">
+		<div id="banner">
+			<ul>
+			
+				<li style="opacity:1; filter:alpha(opacity=100);" class="banner_in">
+                <a target="_blank" href="C4D-1.html"><img src="picture/banner01.jpg" alt="C4D建模与渲染"></a>
+				</li>
+				<li><a target="_blank" href="package-2.html"><img src="picture/banner04.jpg" alt="包装设计"></a></li>
+				<li><a target="_blank" href="B2C-1.html"><img src="picture/banner03-2.jpg" alt="自然之宝首页设计"></a></li>
+				<li><a target="_blank" href="fold-1.html"><img src="picture/banner06.jpg" alt="折页设计"></a></li>
+				<li><a target="_blank" href="C4D-2.html"><img src="picture/banner05.jpg" alt="够你尽情逛"></a></li>
+				<li><a target="_blank" href="painting-1.html"><img src="picture/banner08.jpg" alt="手绘系列"></a></li>
+				
+			</ul>
+		</div>
+		<div class="banner_btn">
+			<ul id="bannerBtn">
+				<li class="img_btn_in"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	
+	<script>
+	
+		window.onload = function(){
+			var oBannerLi = document.getElementById('banner').getElementsByTagName('li');						
+			var oBannerBtn = document.getElementById('bannerBtn').getElementsByTagName('li')
+			var a = 0 ;
+			for(i=0;i<oBannerBtn.length;i++){
+				oBannerBtn[i].index = i ;
+				oBannerBtn[i].onmouseover = function(){
+					for(i=0;i<oBannerBtn.length;i++){
+						oBannerBtn[i].className = ''
+						miaovStartMove(oBannerLi[i],{opacity:0},MIAOV_MOVE_TYPE.BUFFER)
+					}
+					
+					oBannerLi[this.index].className = 'banner_in'
+					this.className = 'img_btn_in';
+					miaovStartMove(oBannerLi[this.index],{opacity:100},MIAOV_MOVE_TYPE.BUFFER)
+					return a = this.index
+				}
+			}
+
+			var oBannerTime = setInterval(function(){
+				a++
+				if(a>=oBannerBtn.length){
+					a=0;
+					for(i=0;i<oBannerBtn.length;i++){
+						oBannerBtn[i].className = ''
+						oBannerLi[i].className = ''
+						miaovStartMove(oBannerLi[i],{opacity:0},MIAOV_MOVE_TYPE.BUFFER)
+					}
+					oBannerBtn[0].className = 'img_btn_in';
+					oBannerLi[0].className = 'banner_in'
+					miaovStartMove(oBannerLi[0],{opacity:100},MIAOV_MOVE_TYPE.BUFFER)
+				}else{
+					for(i=0;i<oBannerBtn.length;i++){
+						oBannerBtn[i].className = ''
+						oBannerLi[i].className = ''
+						miaovStartMove(oBannerLi[i],{opacity:0},MIAOV_MOVE_TYPE.BUFFER)
+					}
+					oBannerBtn[a].className = 'img_btn_in';
+					oBannerLi[a].className = 'banner_in'
+					miaovStartMove(oBannerLi[a],{opacity:100},MIAOV_MOVE_TYPE.BUFFER)								   
+				}
+			},5000)
+		}
+	</script>
+	
+	<div class="nav">
+		<ul>
+			<a target="_blank" href="design.html">
+				<li class="nav1">
+					<img class="sjzp_bt_img" src="picture/DESIGN.png" alt="">
+					<img class="sjzp_yc" src="picture/DESIGN2.png" alt="">
+					<p>设计作品</p>
+				</li>
+			</a>
+			
+			
+			<a target="_blank" href="painting.html"><li class="nav2">
+				<img class="sjzp_bt_img" src="picture/Hand-painted.png" alt="">
+				<img class="sjzp_yc" src="picture/Hand-painted2.png" alt="">
+				<p>绘画作品</p></li>
+			</a>
+				
+				
+			<a target="_blank" href="about.html"><li class="nav3">
+				<img class="sjzp_bt_img" src="picture/ABOUT.png" alt="">
+				<img class="sjzp_yc" src="picture/ABOUT2.png" alt="">
+				<p>关于我</p></li>
+			</a>
+		</ul>
+	</div>
+	
+	
+
+	
+	
+	
+	<div class="foot">
+		<div class="copy_left">
+			<ul>
+				<li><a target="_blank" href="about.html">关于本站</a></li>
+				<li><a target="_blank" href="copyright.html">版权声明</a></li>
+				
+			</ul>
+		</div>
+		<div class="copy copy_r"><p><a href="#">豫ICP备20210222号-1</a>  Copyright © Hi.com. All Rights Reserved.</p></div>
+	</div>
+</div>
+
+</body>
+</html>
