@@ -79,8 +79,11 @@ body {
 }
 .top_nav li a:hover {
 	font-weight: normal;
-	color: #444;
+	color: #333;
 	transition: color 0.2s linear;
+	border-bottom: 1px solid #555;
+	box-sizing:border-box;
+	height:68px;
 }
 div.top a.logo_bai svg {
 	fill: #FFF;
