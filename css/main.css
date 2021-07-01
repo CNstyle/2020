@@ -20,7 +20,7 @@ img {
 @font-face {
 	/* font-test*/
 	font-family: tonjay;
-	src: url('http://www.dijiaocha.com/font/SFUDinEngAlt.woff'), url('http://www.dijiaocha.com/font/SFUDinEngAlt.ttf'), url('http://www.dijiaocha.com/font/SFUDinEngAlt.eot'); /* IE9 */
+src:url('font/tonjay-web.woff'), url('font/tonjay-web.ttf'), url('font/tonjay-web.eot'); /* IE9 */
 }
 body {
 	background: #eee;
@@ -159,7 +159,7 @@ div.nav_bai li a:hover {
 	cursor: pointer
 }
 #bannerBtn li.img_btn_in {
-	background: #F00;
+	background: #e50000;
 }
 .nav {
 	width: 100%;
@@ -198,13 +198,13 @@ div.nav_bai li a:hover {
 }
 .nav a:hover li {
 	color: #FFF;
-	background: #f55;
+	background: #e2041b;
 }
 div.nav a:hover li.nav2 {
-	background: #52A2D8
+	background: #e2041b;
 }
 div.nav a:hover li.nav3 {
-	background: #70C25D
+	background: #e2041b;
 }
 .nav a li p {
 	font-size: 16px;
