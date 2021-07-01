@@ -71,7 +71,7 @@ body {
 .top_nav li a {
 	display: block;
 	font-size: 16px;
-	color: #888;
+	color: #666;
 }
 .top_nav li a.in {
 	font-weight: normal;
