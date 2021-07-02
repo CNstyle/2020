@@ -506,14 +506,14 @@ dov.xiaorong_warp div.foot_xiaorong {
 	font-weight: bold;
 	font-size: 40px;
 	color: #666;
-	padding-bottom: 00px;
-	letter-spacing: 3px;
+	padding-bottom: 0px;
+	letter-spacing: 1px;
 	line-height: 40px;
 }
 .work_title h6 {
 	font-weight: normal;
 	font-size: 20px;
-	color: #aaa;
+	color: #888;
 	margin: 20px 0;
 }
 .huihua_title {
