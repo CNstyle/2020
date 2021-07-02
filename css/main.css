@@ -172,8 +172,8 @@ div.nav_bai li a:hover {
 	height: 0;
 	background: #FFF;
 	text-align: center;
-	padding-bottom: 11%;
-	padding-top: 6%;
+	padding-bottom: 12%;
+	padding-top: 4%;
 	transition: background 0.3s linear;
 	color: #707070;
 }
@@ -207,7 +207,8 @@ div.nav a:hover li.nav3 {
 	background: #e2041b;
 }
 .nav a li p {
-	font-size: 16px;
+	font-size: 20px;
+	padding-top: 6px;
 }
 .nav_svg {
 	width: 50%;
