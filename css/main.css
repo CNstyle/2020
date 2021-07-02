@@ -908,7 +908,19 @@ div#yidong p span {
 	text-decoration: none;
 	font-family: Tahoma, Verdana, "Microsoft Yahei", sans-serif;
 }
-
+.sjzs1{
+	display:block;
+}
+.work_list li:hover .sjzs1{
+	display:none;
+}
+.sjzs2{
+	display:none;
+}
+.work_list li:hover .sjzs2{
+	display:block;
+	background-color:#e2041b;
+}
 
 
 
