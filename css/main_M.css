@@ -51,78 +51,7 @@ div.top a.logo_bai svg {
 div.nav_bai li a, div.nav_bai li a.in {
 	color: #FFF
 }
-div.bobo_banner {
-	background: url(http://www.dijiaocha.com/images/bobo_m.jpg) no-repeat center top #ddd;
-	height: 0;
-	padding-bottom: 180%;
-	background-size: 100%;
-}
-div.sheying_banner {
-	background: url(http://www.dijiaocha.com/images/mopian_m.jpg) no-repeat center top #ddd;
-	height: 0;
-	padding-bottom: 180%;
-	background-size: 100%;
-}
-div.sheying_warp img {
-	width: 96%;
-}
-div.xiaorong_banner {
-	background: url(http://www.dijiaocha.com/images/xiaorong_m.jpg) no-repeat center top #ddd;
-	height: 0;
-	width: 100%;
-	padding-bottom: 180%;
-	background-size: 100%;
-	position: inherit;
-}
-div.xiaorong_warp {
-	margin-left: 0;
-	width: 100%;
-	text-align: center;
-}
-div.xiaorong_warp img {
-	width: 96%;
-	padding-top: 30px;
-}
-div.fuji_copy_warp {
-	display: none;
-}
-div#xiaorong_top {
-	background-color: rgba(0,0,0,0.1);
-	position: fixed;
-}
-div#xiaorong_top li a {
-	color: #FFF;
-}
-div#xiaorong_top svg {
-	fill: #FFF;
-}
-div.zairenjian_banner {
-	background: url(http://www.dijiaocha.com/images/zairenjian_m.jpg) no-repeat center top #ddd;
-	height: 0;
-	width: 100%;
-	padding-bottom: 180%;
-	background-size: 100%;
-	position: inherit;
-}
-div.renxiang_banner {
-	background: url(http://www.dijiaocha.com/images/renxiang_m.jpg) no-repeat center top #ddd;
-	height: 0;
-	width: 100%;
-	padding-bottom: 180%;
-	background-size: 100%;
-	position: inherit;
-}
-div.dibiao_banner {
-	background: url(http://www.dijiaocha.com/images/dibiao_m.jpg) no-repeat center top #ddd;
-	height: 0;
-	width: 100%;
-	padding-bottom: 180%;
-	background-size: 100%;
-	position: inherit;
-}
-div#dibiao_img img {
-	width: 96%;
-}
+
 div.sheying_list li {
 	float: inherit;
 	width: 100%;
@@ -136,25 +65,7 @@ div.sheying_list img {
 	border-radius: 15px;
 	transition: all 0.3s linear;
 }
-div.sheying_title {
-	margin-top: 5%;
-	overflow: hidden;
-	padding-top: 60px;
-	padding-bottom: 40px;
-	text-align: center;
-}
-div.sheying_title h5 {
-	font-weight: normal;
-	font-size: 30px;
-	color: #666;
-	padding-bottom: 10px;
-	letter-spacing: 1px
-}
-div.sheying_title h6 {
-	font-weight: normal;
-	font-size: 20px;
-	color: #aaa;
-}
+
 div.foot {
 	padding: 20px 0 10px 0;
 }
@@ -210,13 +121,7 @@ div.work_title {
 	padding-bottom: 40px;
 	text-align: center;
 }
-div.huihua_title {
-	margin-top: 5%;
-	overflow: hidden;
-	padding-top: 60px;
-	padding-bottom: 40px;
-	text-align: center;
-}
+
 div.work_title h5 {
 	font-weight: normal;
 	font-size: 30px;
@@ -229,6 +134,21 @@ div.work_title h6 {
 	font-size: 16px;
 	color: #aaa;
 }
+
+div.work_m_warp {
+	display: block;
+	width: 100%;
+}
+div.work_m_warp img {
+	width: 100%;
+}
+div.huihua_title {
+	margin-top: 5%;
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+}
 div.huihua_title h5 {
 	font-weight: normal;
 	font-size: 30px;
@@ -240,70 +160,6 @@ div.huihua_title h6 {
 	font-weight: normal;
 	font-size: 16px;
 	color: #aaa;
-}
-div.bianxingjinggang_banner {
-	display: none;
-}
-div.shengdoushi_banner {
-	display: none;
-}
-div.fresh_banner {
-	display: none;
-}
-div.heitao_banner {
-	display: none;
-}
-div.liehun_banner {
-	display: none;
-}
-div.hanghaiwang_banner {
-	display: none;
-}
-div.dizun_banner {
-	display: none;
-}
-div.chouqian_banner {
-	display: none;
-}
-div.chuanpao_banner {
-	display: none;
-}
-div.huanyuezhiling_banner {
-	display: none;
-}
-div.wudi_banner {
-	display: none;
-}
-div.tiantian_banner {
-	display: none;
-}
-div.xijiang_banner {
-	display: none;
-}
-div.bilan_banner {
-	display: none;
-}
-div.lvmei_banner {
-	display: none;
-}
-div.wangzhe_banner {
-	display: none;
-}
-div.yushanfang_banner {
-	display: none;
-}
-div.eva_banner {
-	display: none;
-}
-div.yuezhan_banner {
-	display: none;
-}
-div.work_m_warp {
-	display: block;
-	width: 100%;
-}
-div.work_m_warp img {
-	width: 100%;
 }
 div.copy_left {
 	display: none
